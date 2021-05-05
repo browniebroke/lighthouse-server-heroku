@@ -1,0 +1,9 @@
+{
+  "name": "Ligthouse Server",
+  "description": "A Lighthouse server running on Heroku",
+  "repository": "https://github.com/browniebroke/lighthouse-server-heroku",
+  "keywords": ["lighthouse", "server"],
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ]
+}
