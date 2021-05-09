@@ -4,6 +4,7 @@
   "repository": "https://github.com/browniebroke/lighthouse-server-heroku",
   "keywords": ["lighthouse", "server"],
   "addons": [
-    "heroku-postgresql:hobby-dev"
+    "heroku-postgresql:hobby-dev",
+    "scheduler:standard"
   ]
 }
