@@ -3,7 +3,7 @@ SELECT COUNT(*) FROM runs;
 SELECT COUNT(*) FROM statistics;
 
 WITH builds_to_delete AS (
-    SELECT id FROM "builds" WHERE "builds"."createdAt" < current_date - interval '7 days'
+    SELECT id FROM "builds" WHERE "builds"."createdAt" < current_date - interval '4 days'
 ),
 stats_to_delete AS (
     DELETE FROM "statistics" WHERE "buildId" IN (
